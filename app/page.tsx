@@ -560,11 +560,12 @@ export default function HomePage() {
       <header className="border-b bg-card/50 backdrop-blur-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <Search className="w-4 h-4 text-primary-foreground" />
+            <div className="flex items-center ">
+              <div className="w-20 h-20 rounded-lg flex items-center justify-center">
+                {/* <Search className="w-4 h-4 text-primary-foreground" /> */}
+                <img src="/Hive_Logo.png" alt="Logo" />
               </div>
-              <h1 className="text-xl font-bold font-[family-name:var(--font-space-grotesk)]">CommunityFind</h1>
+              <h1 className="text-xl font-bold font-[family-name:var(--font-space-grotesk)]">HIVE</h1>
             </div>
             <div className="flex items-center gap-4">
               <Badge variant="secondary" className="gap-1">
@@ -1069,7 +1070,7 @@ function AuthScreen({ onAuth }: { onAuth: () => void }) {
             <Search className="w-6 h-6 text-primary-foreground" />
           </div>
           <CardTitle className="text-2xl font-[family-name:var(--font-space-grotesk)]">
-            Welcome to CommunityFind
+            Welcome to HIVE!
           </CardTitle>
           <CardDescription>Connect with your community to find, share, and trade items</CardDescription>
         </CardHeader>

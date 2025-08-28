@@ -17,7 +17,7 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "CommunityFind - Lost & Found Hub",
+  title: "HIVE - Lost & Found Hub",
   description: "Community-driven platform for lost & found, borrowing, lending, and trading",
   generator: "v0.app",
 }
